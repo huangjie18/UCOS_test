@@ -1,0 +1,24 @@
+﻿生成启动时间为 2018/6/28 9:00:03。
+     1>项目“C:\Users\Administrator\Desktop\uCOS-II+VS2012_完美仿真\uCOSII.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Visual Studio 2013\VC\bin\CL.exe /c /I.\ /I.\Source\ /I.\Ports\Win32\ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR".\Debug\\" /Gd /TC /analyze- /errorReport:prompt main.c Source\os_dbg_r.c Source\ucos_ii.c Ports\WIN32\os_cpu_c.c Ports\WIN32\os_trace.c
+         os_trace.c
+         os_cpu_c.c
+         ucos_ii.c
+         os_dbg_r.c
+         main.c
+         正在生成代码...
+       Link:
+         D:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\uCOSII.exe" /INCREMENTAL /NOLOGO WinMM.lib odbc32.lib odbccp32.lib d3dx9.lib dxerr.lib dxguid.lib d3dx10d.lib d3d9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\uCOSII.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\uCOSII.lib" /MACHINE:X86 /SAFESEH .\Debug\main.obj
+         .\Debug\os_dbg_r.obj
+         .\Debug\ucos_ii.obj
+         .\Debug\os_cpu_c.obj
+         .\Debug\os_trace.obj
+         uCOSII.vcxproj -> C:\Users\Administrator\Desktop\uCOS-II+VS2012_完美仿真\.\Debug\uCOSII.exe
+       BscMake:
+         D:\Visual Studio 2013\VC\bin\bscmake.exe /nologo /o".\Debug\uCOSII.bsc" .\Debug\main.sbr .\Debug\os_dbg_r.sbr .\Debug\ucos_ii.sbr .\Debug\os_cpu_c.sbr .\Debug\os_trace.sbr
+     1>已完成生成项目“C:\Users\Administrator\Desktop\uCOS-II+VS2012_完美仿真\uCOSII.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.65

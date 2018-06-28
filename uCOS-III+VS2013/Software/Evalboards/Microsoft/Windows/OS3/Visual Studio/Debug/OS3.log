@@ -1,0 +1,72 @@
+﻿生成启动时间为 2018/6/28 9:07:59。
+     1>项目“C:\Users\Administrator\Desktop\Micrium\Software\Evalboards\Microsoft\Windows\OS3\Visual Studio\OS3.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Visual Studio 2013\VC\bin\CL.exe /c /I..\ /I..\..\BSP /I..\..\BSP\CPU /I"..\..\..\..\..\uC-CPU" /I"..\..\..\..\..\uC-CPU\Win32\Visual Studio" /I"..\..\..\..\..\uC-LIB" /I"..\..\..\..\..\uCOS-III\Source" /I"..\..\..\..\..\uCOS-III\Ports\Win32\Visual Studio" /ZI /nologo /W0 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\..\uC-CPU\cpu_core.c" "..\..\..\..\..\uC-CPU\Win32\Visual Studio\cpu_c.c" "..\..\..\..\..\uC-LIB\lib_ascii.c" "..\..\..\..\..\uC-LIB\lib_math.c" "..\..\..\..\..\uC-LIB\lib_mem.c" "..\..\..\..\..\uC-LIB\lib_str.c" "..\..\..\..\..\uCOS-III\Ports\Win32\Visual Studio\os_cpu_c.c" "..\..\..\..\..\uCOS-III\Source\os_cfg_app.c" "..\..\..\..\..\uCOS-III\Source\os_core.c" "..\..\..\..\..\uCOS-III\Source\os_dbg.c" "..\..\..\..\..\uCOS-III\Source\os_flag.c" "..\..\..\..\..\uCOS-III\Source\os_int.c" "..\..\..\..\..\uCOS-III\Source\os_mem.c" "..\..\..\..\..\uCOS-III\Source\os_msg.c" "..\..\..\..\..\uCOS-III\Source\os_mutex.c" "..\..\..\..\..\uCOS-III\Source\os_pend_multi.c" "..\..\..\..\..\uCOS-III\Source\os_prio.c" "..\..\..\..\..\uCOS-III\Source\os_q.c" "..\..\..\..\..\uCOS-III\Source\os_sem.c" "..\..\..\..\..\uCOS-III\Source\os_stat.c" "..\..\..\..\..\uCOS-III\Source\os_task.c" "..\..\..\..\..\uCOS-III\Source\os_tick.c" "..\..\..\..\..\uCOS-III\Source\os_time.c" "..\..\..\..\..\uCOS-III\Source\os_tmr.c" "..\..\..\..\..\uCOS-III\Source\os_var.c" ..\..\BSP\bsp.c ..\..\BSP\CPU\cpu_bsp.c ..\app.c ..\os_app_hooks.c
+         os_app_hooks.c
+         app.c
+         cpu_bsp.c
+         bsp.c
+         os_var.c
+         os_tmr.c
+         os_time.c
+         os_tick.c
+         os_task.c
+         os_stat.c
+         os_sem.c
+         os_q.c
+         os_prio.c
+         os_pend_multi.c
+         os_mutex.c
+         os_msg.c
+         os_mem.c
+         os_int.c
+         os_flag.c
+         os_dbg.c
+         正在生成代码...
+         正在编译...
+         os_core.c
+         os_cfg_app.c
+         os_cpu_c.c
+         lib_str.c
+         lib_mem.c
+         lib_math.c
+         lib_ascii.c
+         cpu_c.c
+         cpu_core.c
+         正在生成代码...
+       Link:
+         D:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\Micrium\Software\Evalboards\Microsoft\Windows\OS3\Visual Studio\Debug\OS3.exe" /INCREMENTAL /NOLOGO d3dx9.lib dxerr.lib dxguid.lib d3dx10d.lib d3d9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\Micrium\Software\Evalboards\Microsoft\Windows\OS3\Visual Studio\Debug\OS3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\Micrium\Software\Evalboards\Microsoft\Windows\OS3\Visual Studio\Debug\OS3.lib" /MACHINE:X86 Debug\cpu_core.obj
+         Debug\cpu_c.obj
+         Debug\lib_ascii.obj
+         Debug\lib_math.obj
+         Debug\lib_mem.obj
+         Debug\lib_str.obj
+         Debug\os_cpu_c.obj
+         Debug\os_cfg_app.obj
+         Debug\os_core.obj
+         Debug\os_dbg.obj
+         Debug\os_flag.obj
+         Debug\os_int.obj
+         Debug\os_mem.obj
+         Debug\os_msg.obj
+         Debug\os_mutex.obj
+         Debug\os_pend_multi.obj
+         Debug\os_prio.obj
+         Debug\os_q.obj
+         Debug\os_sem.obj
+         Debug\os_stat.obj
+         Debug\os_task.obj
+         Debug\os_tick.obj
+         Debug\os_time.obj
+         Debug\os_tmr.obj
+         Debug\os_var.obj
+         Debug\bsp.obj
+         Debug\cpu_bsp.obj
+         Debug\app.obj
+         Debug\os_app_hooks.obj
+         OS3.vcxproj -> C:\Users\Administrator\Desktop\Micrium\Software\Evalboards\Microsoft\Windows\OS3\Visual Studio\Debug\OS3.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\Micrium\Software\Evalboards\Microsoft\Windows\OS3\Visual Studio\OS3.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.72
