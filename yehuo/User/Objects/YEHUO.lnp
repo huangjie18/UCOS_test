@@ -1,0 +1,8 @@
+--cpu Cortex-M3
+".\objects\app.o"
+".\objects\startup_armcm3.o"
+".\objects\system_armcm3.o"
+--strict --scatter ".\Objects\YEHUO.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\YEHUO.map" -o .\Objects\YEHUO.axf
